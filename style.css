@@ -23,8 +23,8 @@ text-align: center;
 
 div.box {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
     background:
     color: #000;
     padding: 20px;
