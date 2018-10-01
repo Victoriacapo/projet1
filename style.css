@@ -1,24 +1,24 @@
 .title {
   position: relative;
-display: block;
-height: auto;
-width: 100%;
-color: #404041;
-font-size: 2.5em;
-font-family: "Amaranth",Arial,sans-serif;
-font-style: italic;
-text-align: center;
-padding: 40px 0 30px;
+  display: block;
+  height: auto;
+  width: 100%;
+  color: #404041;
+  font-size: 2.5em;
+  font-family: "Amaranth",Arial,sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 40px 0 30px;
 }
 
 .subtitle {
   position: relative;
-display: block;
-color: #404041;
-font-size: 1.75em;
-font-family: "Amaranth",Arial,sans-serif;
-font-style: italic;
-text-align: center;
+  display: block;
+  color: #404041;
+  font-size: 1.75em;
+  font-family: "Amaranth",Arial,sans-serif;
+  font-style: italic;
+  text-align: center;
 }
 
 div.box {
