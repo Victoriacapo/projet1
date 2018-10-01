@@ -1,5 +1,19 @@
 /* titre :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 .title {
+  /* position: relative;
+  display: block;
+  height: auto;
+  width: 100%; */
   color: #404041;
+  font-size: 2.5em;
+  font-family: "Amaranth", Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+  padding: 40px 0 30px;
+}
+.text {
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
 }
