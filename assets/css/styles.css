@@ -1,241 +1,185 @@
-<<<<<<< HEAD
 body * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #000;
-  font-family: Titillium Web,Arial,sans-serif;
+  font-family: "Titillium Web",Arial,sans-serif;
   font-weight: normal;
 }
 
 .bg-dark-grey {
   background-color: #404041;
+}
+
+.global-container .header-top {
   height:50px;
 }
 
-.wrapper-header {
-    z-index: 1;
+a {
+  text-decoration : none;
+  color:black;
 }
 
-.wrapper-header, .nav-site {
-    position: relative;
-    display: block;
-    height: auto;
-    width: 100%;
+a:hover {
+  text-decoration :none;
 }
 
-.nav-site::before {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    height: 100px;
-    width: 100%;
-    max-width: 1190px;
-    margin-left: -595px;
-    background: -moz-radial-gradient(100% 100%, #b3bcbd 20%,rgba(0,0,0,0) 50%);
-    background: -webkit-radial-gradient(100% 100%, #b3bcbd 20%,rgba(0,0,0,0) 50%);
-    background: radial-gradient(100% 100%, #b3bcbd 20%,rgba(0,0,0,0) 50%);
-  }
+.global-container .list-filiale {
+  position: relative;
+  width: 125px;
+  background: #f5f5f5;
 
-  .header-top {
-      height: 50px;
-      background: #404041;
-      text-align: left;
-      z-index: 10;
-  }
-
-  .header-top, .header-bottom {
-      position: relative;
-      display: block;
-      width: 100%;
-  }
-
-  .wrapper-global {
-    position: relative;
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    max-width: 1190px;
 }
 
-.search-desktop {
-    width: 4.202%;
+#filiales {
+  height: auto;
+  width: 170px;
+  padding: 10px 20px;
+  background: #f5f5f5;
 }
 
-.search-desktop, .site-lang, .global-nav {
-    position: relative;
-    display: inline-block;
-    height: 50px;
-    text-align: left;
-    vertical-align: top;
+.filiale a {
+  margin-left:20px;
 }
 
-.search-desktop .wrapper-search {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    -moz-transition: width 200ms ease;
-    -o-transition: width 200ms ease;
-    -webkit-transition: width 200ms ease;
-    transition: width 200ms ease;
+.filiale {
+  transition:0.5s;
+  width:170px;
+  margin-left:-20px;
+  padding-bottom:5px;
+  padding-top:5px;
+  cursor:pointer;
 }
 
-.search-desktop .content-search {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 300px;
-    z-index: 1;
+.filiale:hover{
+  transition:0.5s;
+  background-color:#01ADDD;
+  color: #fff;
 }
 
-.search-desktop .close-search {
-    width: 16.67%;
-    cursor: pointer;
-    background: #7A2A90 url("../images/pictos/close_white.png") no-repeat center center;
+.filiale a {
+  color: #404041;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875em;
+  font-family: "Titillium Web",Arial,sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
-.search-desktop .close-search, .search-desktop .search-input {
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    padding: 0;
-    border: 0;
+.filiale:hover a {
+  color : #fff;
+  transition : 0.5s;
 }
 
-input:not(.checkbox), select, .select-styled, textarea {
-    font-size: 16px;
-    font-size: 1em;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    position: relative;
-    display: inline-block;
-    border: 0;
-    margin: 0;
-    padding: 5px;
-    color: #404041;
-    background-color: #fff;
-    font-family: Arial,sans-serif;
-    border: 1px solid #fff;
-    border-radius: 0;
-    outline-width: 0;
-    overflow-x: hidden;
+.global-container .list-filiale a {
+
+  display: block;
+  font-size: 14px;
+  font-size: 0.875em;
+  font-family: "Titillium Web",Arial,sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
-input, button, select, textarea {
-    font-size: inherit;
-    line-height: inherit;
+.global-container .list-filiale .link-filiale:hover {
+  color: #01ADDD;
 }
 
-.search-desktop .icon-search {
-    background: transparent url("../images/pictos/search_white.png") no-repeat center center;
-    z-index: 90;
+.filiales {
+  height:50px;
+  margin-left:150px;
 }
 
-.search-desktop .icon-search, .search-desktop .search-submit {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 16.67%;
-    cursor: pointer;
+.global-nav .list-filiale .mp-level .filiale a {
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 
-.search-desktop .search-submit {
-    border: none;
-    font-size: 0;
-    background: transparent url("../images/pictos/search_violet.png") no-repeat center center;
-    z-index: -1;
-    margin: 0;
+.global-nav .list-filiale .mp-level a {
+  padding: 10px 20px;
+  margin-left:30px;
 }
 
-.search-desktop .icon-search, .search-desktop .search-submit {
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 16.67%;
-    cursor: pointer;
+ol, ul {
+  list-style: none;
 }
 
-form input[type="submit"] {
-    position: relative;
-    color: #fff;
-    font-size: 16px;
-    font-size: 1em;
-    font-family: "Amaranth",Arial,sans-serif;
-    font-weight: 600;
-    margin: 20px 0 0 185px;
-    border: 0;
-    padding: 5px 10px;
-    cursor: pointer;
-    background-color: #404041;
-    text-transform: uppercase;
-    -moz-transition: background 200ms ease;
-    -o-transition: background 200ms ease;
-    -webkit-transition: background 200ms ease;
-    transition: background 200ms ease;
-}
-@media all and (min-width:64.06225em) {
-  .touch-only {
-      display: none;
-  }
+.global-container .list-filiale .link-filiale {
+  text-align: center;
+  line-height: 50px;
+  width: 100%;
+  font-style: italic;
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
 }
 
-a img {
-    border: none;
+.global-container .list-filiale .link-filiale::after {
+
+  border-bottom-color: #404041;
+
 }
 
-.site-lang {
-    -moz-transition: background 200ms ease;
-    -o-transition: background 200ms ease;
-    -webkit-transition: background 200ms ease;
-    transition: background 200ms ease;
-    width: 5.211%;
-    background: #ebebeb;
+.global-container .header-bottom {
+  height:130px;
+  background-color: #ffffff;
 }
 
-.site-lang.active, .site-lang:hover {
-    background: #6F77B8;
+.global-container .header-bottom > .global-container {
+  height: 100%;
+  z-index:1;
 }
 
-.search-desktop, .site-lang, .global-nav {
-    position: relative;
-    display: inline-block;
-    height: 50px;
-    text-align: left;
-    vertical-align: top;
+.global-container .header-bottom > .brand {
+  height: 100%;
+  width: 31.513%;
 }
 
-.site-lang .flag {
-    position: relative;
-    display: block;
-    text-align: center;
-    padding: 0.9375em 0;
+.global-container .header-bottom .brand a {
+  display: block;
+  height: 100%;
+  padding: 3% 0;
 }
 
-.site-lang .flag img {
-    height: auto;
-    width: auto;
-    max-height: 100%;
-    max-width: 50%;
+.global-container .header-bottom .brand a img {
+  display: block;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
-.list-lang .lang {
-    -moz-transition: background 200ms ease;
-    -o-transition: background 200ms ease;
-    -webkit-transition: background 200ms ease;
-    transition: background 200ms ease;
-    background: #f5f5f5;
-=======
-/* titre :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.global-container .header-bottom .main-nav {
+  width: 68.068%;
+  text-align: right;
+  height: auto;
+  line-height: 1.2;
+  vertical-align: bottom;
+  bottom: 50px;
+}
+
+.global-container .header-bottom .links-nav {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+}
+
+.global-container .header-bottom .links-nav:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 1px;
+  background: #404041;
+}
+
 .title {
   /* position: relative;
   display: block;
@@ -248,9 +192,9 @@ a img {
   font-style: italic;
   padding: 40px 0 30px;
 }
+
 .text {
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
->>>>>>> d95d4ac93afc4a6c5067ae80a9f7a6071795c074
 }
