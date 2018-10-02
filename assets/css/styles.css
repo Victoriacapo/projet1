@@ -1,0 +1,13 @@
+h2 {
+  color: black;
+}
+img {
+  height:130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: purple;
+  margin-bottom: 10px;
+
+.prune {
+  background-color: green;
+}
