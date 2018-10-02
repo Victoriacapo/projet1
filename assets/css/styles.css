@@ -37,12 +37,22 @@
 
 .greycolor {
   display: inline-block;
-  height: 130px;
-  width: 130px;
-  line-height: 128px;
+  height: 8.125rem;
+  width: 8.125rem;
+  line-height: 8rem;
   text-align: center;
   box-sizing: border-box;
   border-radius: 100%;
+  background-color: #ebebeb;
+}
+
+.greycolor2 {
+  display: inline-block;
+  height: 6.1875rem;
+  width: 7.5rem;
+  line-height: 6rem;
+  text-align: center;
+  box-sizing: border-box;
   background-color: #ebebeb;
 }
 
