@@ -13,10 +13,26 @@
   padding: 40px 0 30px;
 }
 
+.title2 {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Amaranth", Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+  padding: 40px 0 30px;
+}
+
 .text {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text2 {
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
+  color: white;
 }
 
 .greycolor {
@@ -40,4 +56,14 @@
 
 .paddingt {
   padding-top: 1.2rem;
+}
+
+.paddingb {
+  padding-bottom: 5rem;
+}
+
+.footer {
+  height: 30rem;
+  background: #404041;
+  padding: 35px 0;
 }
