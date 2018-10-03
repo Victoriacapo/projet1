@@ -19,7 +19,14 @@
   font-family: "Amaranth", Arial, sans-serif;
   text-align: center;
   font-style: italic;
-  padding: 0 0 10rem;
+}
+
+.margintitle1 {
+  padding-left: 3.5rem;
+}
+
+.margintitle2 {
+  padding: 0 2rem;
 }
 
 .text {
@@ -53,7 +60,7 @@
   line-height: 6rem;
   text-align: center;
   box-sizing: border-box;
-  background-color: #ebebeb;
+  background-color: #ffffff;
 }
 
 .paddingl {
@@ -73,7 +80,24 @@
 }
 
 .footer {
-  height: 25rem;
+  height: 24rem;
   background: #404041;
   padding: 35px 0;
+}
+
+.lastfooter {
+  height: 3rem;
+  background: #1a1a1a;
+}
+
+.margin1 {
+ padding: 1.375rem 0 0 1.5rem;
+}
+
+.margin2 {
+  padding: 1.375rem 0 0 1.5rem;
+}
+
+.margin3 {
+  padding: 1.375rem 2rem;
 }
