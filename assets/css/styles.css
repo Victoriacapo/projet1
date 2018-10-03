@@ -1,13 +1,118 @@
-h2 {
-  color: black;
+.textoff h3 {
+  text-align: center;
+  color: #404041;
+  font-family: 'Amaranth', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-img {
-  height:130px;
+.velo{
+  font-family: 'Amaranth',Arial, sans-serif;
+  font-style: italic;
+  font-size: 28px;
+  color: #404041;
+  text-align: center;
+}
+img{
+  height: 50px;
+  width: 50px;
+}
+.verb{
+  height:10px;
+  width: 56px;
+}
+.verb1{
+  height:69px;
+  width: 39px;
+}
+.offres .forme{
+  background: #7A2A90;
+  height: 130px;
   width: 130px;
   border-radius: 50%;
-  background-color: purple;
-  margin-bottom: 10px;
+  line-height: 128px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.offres{
+  position: relative;
+  width: 70%;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
 
-.prune {
-  background-color: green;
+.forme{
+  text-align: center;
+  width:70%;
+}
+
+.offers {
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.text-offres{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.engagement{
+  position: relative;
+  width: 100%;
+  background-color:#F1F1F1;
+  background-image: url(../../imgSPB/bg_advantages.jpg);
+  background-position-x: 65%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  top: 50%;
+  height:auto;
+  text-align: center;
+}
+
+.engagement H3{
+  font-family: Arial;
+  font-style: italic;
+  font-size: 40px;
+  color: #404041;
+  font-weight: 600;
+  font-style: normal;
+}
+.engagement H3 span{
+  font-family: 'Amaranth', Arial, sans-serif;
+  width: 100%;
+  color: #404041;
+}
+
+.engagement p span{
+  color:#BC3983;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.competences{
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 220px;
+  margin-right: 25px;
+  background-color:rgba(255,255,255,0.85);
+}
+#text{
+  font-family: 'Titillium Web', Arial, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  background-color: transparent;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  background-origin: padding-box;
+  vertical-align: middle;
+  line-height: 1.2em;
 }

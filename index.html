@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
   <title>SPB | Courtier gestionnaire, leader européen des assurances et services affinitaires</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
@@ -10,100 +12,84 @@
   <!--***********************************offres****************************************************-->
   <section>
     <div class="container-fluid">
-      <div class="row text-center velo">
-        <div class="col-12 text-center">
-          <h2 class="offres">Nos OFFRES</h2>
-          <h3>SPB propose la plus large gamme de solution d’assurance et de services du marché adaptée à vos besoins.</h3>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <img class="mr-3"src="imgSPB/new_card_0.png">
-            <div class="media-body">
-              <h5 class="mt-0">MOYEN DE<br/> PAIMENT</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <img class="mr-3"src="imgSPB/new_phone_0.png">
-            <div class="media-body">
-              <h5 class="mt-0">TELEPHONIES & <br/>PRODUIT NOMADES</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <img class="mr-3"src="imgSPB/new_caddie_0.png">
-            <div class="media-body">
-              <h5 class="mt-0">DISTRIBUTION &<br/> E-COMMERCE</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <img class="mr-3"src="imgSPB/new_points.png">
-            <div class="media-body">
-              <h5 class="mt-0">ET BIEN PLUS...</h5>
-            </div>
-          </div>
-        </div>
-
+      <div class="row offers">
+      <div class="text-center textoff">
+        <h3><span>Nos</span> OFFRES</h3>
+        <h4 class="velo">SPB propose la plus large gamme de solution d’assurance et de services du marché adaptée à vos besoins.</h4>
       </div>
+
+      <div class="col-12 col-md-6 offres">
+        <span class="forme">
+          <img src="imgSPB/new_card_0.png" alt="Moyens de paiement">
+        </span>
+        <p class="text-offres">MOYEN DE<br/> PAIEMENT</p>
+      </div>
+
+      <div class="col-12 col-md-6 offres">
+        <span class="forme">
+          <img class="verb1" src="imgSPB/new_phone_0.png" alt="Produits">
+        </span>
+        <p class="text-offres">TELEPHONIES & <br/> ET PRODUITS NOMADES</p>
+      </div>
+
+      <div class="col-12 col-md-6 offres">
+        <span class="forme">
+          <img src="imgSPB/new_caddie_0.png" alt="e-commerce">
+        </span>
+        <p class="text-offres">DISTRIBUTION & <br/> E-COMMERCE</p>
+      </div>
+
+      <div class="col-12 col-md-6 offres">
+        <span class="forme">
+          <img class="verb" src="imgSPB/new_points.png" alt="Et bien plus">
+        </span>
+        <p class="text-offres">ET BIEN PLUS...</p>
+      </div>
+     </div>
     </div>
+  </section>
+  <!--***********************************LES + SPB**************************************************-->
+  <section id="SPB">
 
-      </section>
 
-      <!--***********************************LES + SPB**************************************************-->
-      <section class="prune">
-        <h3 class="floating-title text-center">LES + SPB</h3>
-        <div class="container-fluid ">
-          <div class="row">
+    <div class="container-fluid engagement">
+<h3 class="floating-title text-center">LES <span>+ SPB</span></h3>
 
-            <div class="competences">
-              <img class="mr-3"src="">
-              <p>
-                Une chaîne de<br/>
-                <span>compétences</span><br/>
-                unique
-              </p>
-            </div>
-
-            <div class="programmes">
-              <img class="mr-3"src="">
-              <p>
-                Des programmes<br/>
-                créateurs de<br/>
-                <span>valeur</span> et de <br/>
-                <span>fidélisation</span>
-              </p>
-            </div>
-
-            <div class="entreprise">
-              <img class="mr-3"src="">
-              <p>
-                Une entreprise <br/>
-                <span>agile</span>
-              </p>
-            </div>
-
-            <div class="démarche">
-              <img class="mr-3" src="">
-              <p>
-                Une démarche <br/>
-                <span>responsable</span>
-              </p>
-            </div>
-
-          </div>
+        <div class="competences">
+          <p id="text">
+            Une chaîne de
+            <span>compétences</span><br/>
+            unique
+          </p>
         </div>
-      </section>
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
-    </html>
+        <div class="competences programmes">
+          <p id="text">
+            Des programmes<br/>
+            créateurs de<br/>
+            <span>valeur</span> et de <br/>
+            <span>fidélisation</span>
+          </p>
+        </div>
+
+        <div class="competences entreprise">
+          <p id="text">
+            Une entreprise <br/>
+            <span>agile</span>
+          </p>
+        </div>
+
+        <div class="competences demarche">
+          <p id="text">
+            Une démarche <br/>
+            <span>responsable</span>
+          </p>
+        </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
