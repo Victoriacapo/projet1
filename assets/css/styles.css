@@ -428,6 +428,7 @@ ol, ul {
   padding: 40px 0 30px;
 }
 
+<<<<<<< HEAD
 .subtitle {
   position: relative;
   display: block;
@@ -592,9 +593,95 @@ a:hover {
   text-align: center;
   color: #404041;
   font-family: 'Amaranth', Arial, sans-serif;
+=======
+.title2 {
+  color: white;
+  font-size: 1.2em;
+  font-family: "Amaranth", Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+.margintitle1 {
+  padding-left: 3.5rem;
+}
+
+.margintitle2 {
+  padding: 0 2rem;
+}
+
+.text {
+>>>>>>> 535996b018f6ebb44cefc60031e53854047ec9e1
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text2 {
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
+  color: white;
+}
+
+.greycolor {
+  display: inline-block;
+  height: 8.125rem;
+  width: 8.125rem;
+  line-height: 8rem;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 100%;
+  background-color: #ebebeb;
+}
+
+.greycolor2 {
+  display: inline-block;
+  height: 6.1875rem;
+  width: 7.5rem;
+  line-height: 6rem;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.paddingl {
+  padding-left: 6.3rem;
+}
+
+.paddingr {
+  padding-right: 6.3rem;
+}
+
+.paddingt {
+  padding-top: 1.2rem;
+}
+
+.paddingb {
+  padding-bottom: 5rem;
+}
+
+.footer {
+  height: 24rem;
+  background: #404041;
+  padding: 35px 0;
+}
+
+.lastfooter {
+  height: 3rem;
+  background: #1a1a1a;
+}
+
+.margin1 {
+ padding: 1.375rem 0 0 1.5rem;
+}
+
+.margin2 {
+  padding: 1.375rem 0 0 1.5rem;
+}
+
+.margin3 {
+  padding: 1.375rem 2rem;
 }
 .velo{
   font-family: 'Amaranth',Arial, sans-serif;
@@ -655,7 +742,7 @@ img{
   position: relative;
   width: 100%;
   background-color:#F1F1F1;
-  background-image: url(../../imgSPB/bg_advantages.jpg);
+  background-image: url(../img/bg_advantages.jpg);
   background-position-x: 65%;
   background-position-y: center;
   background-repeat: no-repeat;
