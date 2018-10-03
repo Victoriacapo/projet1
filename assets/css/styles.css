@@ -1,3 +1,4 @@
+
 body * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -413,4 +414,178 @@ ol, ul {
   height: 100%;
   width: 1px;
   background: #404041;
+}
+
+.titlenos {
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  color: #404041;
+  font-size: 2.5em;
+  font-family: "Amaranth",Arial,sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 40px 0 30px;
+}
+
+.subtitle {
+  position: relative;
+  display: block;
+  color: #404041;
+  font-size: 1.75em;
+  font-family: "Amaranth",Arial,sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+div.box {
+    width: auto;
+    height: auto;
+    color: #BBAE98;
+    padding: 0px;
+}
+
+div.box:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}
+
+a.divLink {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+    background-color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #404041;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #01ADDD;
+}
+
+.button {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+.actus-wrapper {
+    padding: 0px;
+    border: 5px solid #fff;
+    background-color: #F6F6F6;
+    min-height: 490px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.para1 {
+  width: 25%;
+  height: auto;
+  background-color: #0F9DE8;
+  color: #FFFFFF;
+}
+
+/*CALQUES*/
+
+.divcp {
+  position:relative;
+  height:100%
+}
+
+#divc1 {
+  position:absolute;
+  z-index:1
+}
+
+#divc2 {
+  position:absolute;
+  top:0%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%
+}
+
+#divc3 {
+  position:absolute;
+  z-index:1
+}
+
+#divc4 {
+  position:absolute;
+  top:0%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%
+}
+
+#divc5 {
+  position:absolute;
+  z-index:1
+}
+
+#divc6 {
+  position:absolute;
+  top:0%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%
+}
+
+#divc7 {
+  position:absolute;
+  top:90%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%;
+  color:#BBAE98;
+}
+
+#divc8 {
+  position:absolute;
+  top:90%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%;
+  color:#BBAE98;
+}
+
+#divc9 {
+  position:absolute;
+  top:90%;
+  width:25%;
+  height:auto;
+  z-index:2;
+  font-size:100%;
+  color:#BBAE98;
+}
+
+.bg-grey {
+  background-color: #F6F6F6;
+}
+
+.btn-color {
+  background-color: #800080;
+  color: #FFFFFF;
 }
