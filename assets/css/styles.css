@@ -72,6 +72,237 @@ a:hover {
   transition : 0.5s;
 }
 
+.global-container .list-filiale {
+  margin-top: -8px;
+}
+
+#youare {
+  margin-top:-10px;
+}
+
+#linkyouare {
+  top:0;
+  left: 165px;
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  font-style:italic;
+  color: #fff;
+  font-size:14px;
+}
+
+.personnality {
+  position:absolute;
+  left: 220px;
+}
+
+.personnality li {
+  text-transform: uppercase;
+  display:inline-block;
+}
+
+.personnality li a {
+  color : #a5999a;
+  transition:0.5s;
+  font-size: 0.875em;
+  font-size: 14px;
+}
+
+.personnality li a:hover {
+  transition: 0.5s;
+  color: #2a6496;
+}
+
+#insured {
+  transition:0.5s;
+  background: #01ADDD url("../img/icons/pen_white.png") no-repeat 19px center;
+  padding: 0 19px 0 53px;
+  padding-top:13px;
+  padding-bottom:12.5px;
+}
+
+#insured a {
+  color: #fff;
+}
+
+#insured:hover {
+  transition: 0.5s;
+    background: #01c1f6 url("../img/icons/pen_white.png") no-repeat 19px center;
+}
+
+#followus {
+  margin-left:50px;
+  text-transform: inherit;
+  font-style: italic;
+}
+
+.follow a {
+    position: relative;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+#followus a {
+  font-size: 1em;
+  color:#fff;
+  font-family: "Amaranth",Arial,sans-serif;
+  margin-right: 20px;
+  margin-left: 90px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-style:normal;
+  font-weight: bold;
+  color:#fff;
+}
+
+.follow #twitter {
+  background-color:#757575;
+}
+
+.follow #twitter:hover {
+  background-color:#4abaed;
+}
+
+.follow #linkedin {
+  background-color:#757575;
+}
+
+.follow #linkedin:hover {
+  background-color:#0180b4;
+}
+
+.follow #youtube {
+  background-color:#757575;
+}
+
+.follow #youtube:hover {
+  background-color:#cc181e;
+}
+
+.follow {
+  vertical-align: middle;
+  margin-right:20px;
+}
+
+.follow a {
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    -moz-transition: background 200ms ease;
+    -o-transition: background 200ms ease;
+    -webkit-transition: background 200ms ease;
+    transition: background 200ms ease;
+}
+
+#followgroup {
+  position:absolute;
+  display:inline;
+  float:right;
+  right:-400px;
+  top:11px;
+}
+
+@media all and (max-width:1270px) {
+  #followgroup {
+    display:none;
+  }
+}
+
+#firstslide {
+  height:450px;
+}
+
+.main-nav {
+  top: 115px;
+  right: 100px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align:center;
+}
+
+@media all and (max-width:1200px) {
+  #menu-bottom {
+    display:none;
+  }
+}
+
+.header-bottom .global-container .main-nav .nav-item a {
+  color: #404041;
+  font-size: 18px;
+  font-size: 1.125em;
+  font-family: "Titillium Web",Arial,sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+.main-nav .inli {
+  border-right:1px solid black;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.main-nav .inlis {
+  padding-left:15px;
+}
+
+#logo {
+  margin-left:30px;
+}
+
+#text-slider {
+  position:absolute;
+  top:10px;
+}
+
+#text-slider h1 {
+  font-weight: bold;
+  font-family: "Amaranth",Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 3.125em;
+  text-align: center;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.follow a img {
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 25px;
+    margin-top:4px;
+}
+
+.inl {
+  display: inline;
+  border-right:1px solid white;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.inls {
+  display: inline;
+  padding-right:15px;
+  padding-left:15px;
+}
+
 .global-container .list-filiale a {
 
   display: block;
@@ -89,6 +320,10 @@ a:hover {
 .filiales {
   height:50px;
   margin-left:150px;
+}
+
+.nav-item {
+  display:inline;
 }
 
 .global-nav .list-filiale .mp-level .filiale a {
@@ -178,23 +413,4 @@ ol, ul {
   height: 100%;
   width: 1px;
   background: #404041;
-}
-
-.title {
-  /* position: relative;
-  display: block;
-  height: auto;
-  width: 100%; */
-  color: #404041;
-  font-size: 2.5em;
-  font-family: "Amaranth", Arial, sans-serif;
-  text-align: center;
-  font-style: italic;
-  padding: 40px 0 30px;
-}
-
-.text {
-  font-style: normal;
-  font-weight: 600;
-  text-transform: uppercase;
 }

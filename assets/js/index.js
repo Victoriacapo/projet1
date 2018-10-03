@@ -7,4 +7,6 @@ $(document).ready(function() {
       $filiales.removeClass('d-none')
     }
   })
+
+  $('.carousel').carousel()
 })
